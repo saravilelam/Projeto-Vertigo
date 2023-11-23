@@ -10,7 +10,11 @@
 /* 40px = 2.5rem */
 
 :root{
-    --Gray-800:var(--Gray-800);
+    --Gray-800:#1E293B;
+    --Gray-600: #475569;
+    --Gray-200:#E2E8F0;
+    --Gray-400:#94A3B8;
+    --Purple:#7C3AED;
 
 }
 header{
@@ -28,3 +32,59 @@ header{
 main{
     padding-inline: 1.5rem;
 }
+.descricao h1{
+    color: var(--Gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+
+}
+.descricao{
+    font-size: 0.8125rem;
+    color: var(--Gray-600);
+
+    margin-bottom: 2.5rem;
+
+}
+
+.input-box divi{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 0.5rem;
+}
+.input-box{
+    display: flex ;
+    flex-direction:column ;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.login label{
+    font-size: 0.873rem;
+    color: var(--Gray-800);
+    font-weight: 600rem;
+
+}
+.login input{
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--Gray-200);
+    border-radius: 0.25rem;
+}
+
+.login input::placeholder{
+    color: var(--Gray-400);
+
+}
+
+.login a{
+    color: var(--Purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600rem;
+}
+
+.login a :hover{
+    text-decoration: underline;
+
+}
+/* nome da cor, rgb, rgba, hex, hsl, hwb */

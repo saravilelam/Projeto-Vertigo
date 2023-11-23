@@ -120,4 +120,32 @@ main{
     font-weight: 700;
     font-size: 1rem;
 }
+
+.bd-descktop{
+    display: none;
+}
+
+@media(min-width:1000px) {
+    body{
+        display: flex;
+    }
+    header{
+        background:none;
+        justify-content:flex-start ;
+        padding-inline: 7rem;
+    } 
+    header img{
+        width: 18rem;
+    }
+    main{
+        padding-inline: 7rem;
+    }
+    .conteudo{
+        width:100% ;
+    }
+    .bg-descktop{
+        display: block;
+        width: 100%;
+    }
+}
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
